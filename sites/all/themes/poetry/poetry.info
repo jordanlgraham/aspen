@@ -12,6 +12,7 @@ stylesheets[all][] = /css/custom.css
 ; Everything below this line is from the parent theme.info file.
 stylesheets[all][] = /css/font-awesome.css
 stylesheets[all][] = /css/ie.css
+stylesheets[all][] = /css/aspen-custom.css
 stylesheets[all][] = /foundation/stylesheets/social_foundicons.css
 stylesheets[all][] = /foundation/stylesheets/general_foundicons.css
 scripts[] = js/jquery.js
