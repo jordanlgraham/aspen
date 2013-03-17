@@ -6,11 +6,9 @@
     
     $('.menu_2 a').append('<p class="menu_tagline">how we can help</p>');
     
-    $('.menu_3 a').append('<p class="menu_tagline">recent news</p>');
+    $('.menu_3 a').append('<p class="menu_tagline">helpful resources</p>');
     
-    $('.menu_4 a').append('<p class="menu_tagline">helpful resources</p>');
-    
-    $('.menu_5 a').append('<p class="menu_tagline">get in touch</p>');
+    $('.menu_4 a').append('<p class="menu_tagline">get in touch</p>');
      
 	  $(".featured").orbit({timer: false});
 	  
