@@ -38,7 +38,7 @@ Drupal.wysiwyg.editor.attach.ckeditor = function(context, params, settings) {
   // Apply editor instance settings.
   CKEDITOR.config.customConfig = '';
 
-  var $drupalToolbars = $('#toolbar, #admin-menu', Drupal.overlayChild ? window.parent.document : document);
+  var $drupalToolbar = $('#toolbar', Drupal.overlayChild ? window.parent.document : document);
 
   settings.on = {
     instanceReady: function(ev) {
@@ -139,10 +139,10 @@ Drupal.wysiwyg.editor.attach.ckeditor = function(context, params, settings) {
         return;
       }
       if (ev.data.command.state == CKEDITOR.TRISTATE_ON) {
-        $drupalToolbars.hide();
+        $drupalToolbar.hide();
       }
       else {
-        $drupalToolbars.show();
+        $drupalToolbar.show();
       }
     }
   };
