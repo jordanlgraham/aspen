@@ -1,5 +1,17 @@
 #admin-menu {
   position: fixed;
   font-family: normal small "Lucida Grande", Verdana, sans-serif;
-  font-size: 11px !important;
+  font-size: 10px !important;
+}
+
+#block-views-random-testimonial-block {
+  float: left;
+  border: 1px solid #222;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+header{
+  min-height: 145px !important;
 }
