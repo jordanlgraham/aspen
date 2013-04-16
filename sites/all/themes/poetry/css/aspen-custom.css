@@ -10,8 +10,70 @@
   border-radius: 4px;
   padding: 10px;
   margin-bottom: 20px;
+  z-index: 1;
 }
 
 header{
   min-height: 145px !important;
+}
+
+.eight, .row .eight { width: 75% !important; } /* overrides foundation.css */
+.four, .row .four { width: 24% !important; } /* overrides foundation.css */
+
+.bullets-right {
+  float: left;
+  width: 47%;
+  clear: right;
+}
+
+.bullets-left {
+  float: left;
+  display: block;
+  width: 47%;
+  clear: left;
+}
+
+.content h2 {
+  clear: left;
+  padding-top: 30px;
+}
+
+input[type="text"] {
+  color: #1e560c;
+}
+
+#testimonials_box_link {
+  margin-top: 20px;
+  font-style: italic;
+  margin-botom: 0;
+}
+
+.view-random-testimonial .views-field-field-name-and-position {
+  font-style: italic;
+  margin-top: 10px;
+}
+
+.view-random-testimonial .views-field-field-company {
+  font-weight: bold;
+}
+
+.view-random-testimonial {
+  margin-bottom: -20px !important;
+}
+
+#block-block-10 {
+  display: block;
+  float: left;
+  width: 47%;
+}
+
+#block-block-11 {
+  display: block;
+  float: left;
+  width: 47%;
+}
+
+#block-block-13 h2 {
+  margin-top: 0px;
+  padding-top: 10px;
 }
