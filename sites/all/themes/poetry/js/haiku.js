@@ -2,13 +2,13 @@
   	
 	  $('ul#quotes').quote_rotator();
   
-    $('.menu_1 a').append('<p class="menu_tagline">the beginning</p>');
+    $('.menu_1 a').append('<p class="menu_tagline">how we can help</p>');
     
-    $('.menu_2 a').append('<p class="menu_tagline">how we can help</p>');
+    $('.menu_2 a').append("<p class='menu_tagline'>how we're involved</p>");
     
-    $('.menu_3 a').append('<p class="menu_tagline">helpful resources</p>');
+    $('.menu_3 a').append('<p class="menu_tagline">resources</p>');
     
-    $('.menu_4 a').append('<p class="menu_tagline">get in touch</p>');
+    $('.menu_4 a').append('<p class="menu_tagline">learn more</p>');
      
 	  $(".featured").orbit({timer: false});
 	  

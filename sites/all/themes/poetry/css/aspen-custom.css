@@ -35,7 +35,7 @@ header{
 
 .content h2 {
   clear: left;
-  padding-top: 30px;
+  padding-top: 0px;
 }
 
 input[type="text"] {
@@ -76,4 +76,8 @@ input[type="text"] {
 #block-block-13 h2 {
   margin-top: 0px;
   padding-top: 10px;
+}
+
+.top-bar ul > li.has-dropdown a {
+  padding-right: 27.75px;
 }
