@@ -140,7 +140,7 @@
 
     $('#recent_projects').after('<div style="clear:both;"></div>');
    
-   	$('.dropdown').prepend('<li class="title back js-generated"><h5><a href="#">Main Menu</a></h5></li>');
+   	// $('.dropdown').prepend('<li class="title back js-generated"><h5><a href="#">Main Menu</a></h5></li>');
    	   	
 	  $("#google_map").fitMaps( {w: '100%', h:'370px'} ); 
 	 
