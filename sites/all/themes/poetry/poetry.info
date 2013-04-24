@@ -5,10 +5,6 @@ engine = phptemplate
 
 base theme = haiku
 
-; This is where you can add all of your custom CSS.
-stylesheets[all][] = /css/custom.css
-
-
 ; Everything below this line is from the parent theme.info file.
 stylesheets[all][] = /css/font-awesome.css
 stylesheets[all][] = /css/ie.css
