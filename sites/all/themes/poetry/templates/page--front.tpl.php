@@ -31,7 +31,17 @@
     <div id="highlight">
       <div class="row">
         <div class="twelve columns">
-          <h2 class="highlight_text"><?php echo theme_get_setting('highlight_text');?></h1>
+          <h2 class="highlight_text" style="float:left;"><?php echo theme_get_setting('highlight_text');?></h2>
+          <ul class="member_icons" style="float:right;margin: -30px 0;">
+            <li><a href="https://twitter.com/AspenConsulting" target="_blank"><i class="social foundicon-twitter"></i></a></li>
+            <li><a href="http://www.facebook.com/pages/The-Aspen-Group/156139438246" target="_blank"><i class="social foundicon-facebook"></i  ></a></li>
+            <li><a href="http://www.linkedin.com/profile/view?id=63495270" target="_blank"><i class="social foundicon-linkedin"></i></a></li>
+            <!--
+            <li><a href="#" target="_blank"><i class="social foundicon-pinterest"></i></a></li>
+            <li><a href="#" target="_blank"><i class="social foundicon-google-plus"></i></a></li>
+            <li><a href="#" target="_blank"><i class="social foundicon-flickr"></i></a></li>
+            -->       
+          </ul>  
         </div>
       </div>
     </div>
