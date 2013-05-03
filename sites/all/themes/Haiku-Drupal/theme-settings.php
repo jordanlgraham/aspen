@@ -660,6 +660,7 @@ function haiku_form_system_theme_settings_alter(&$form, &$form_state) {
         '#type' => 'textfield',
         '#title' => 'Secondary Footer Text',
         '#default_value' => theme_get_setting('secondary_footer_text'),
+        '#maxlength' => 255,
         '#states' => array (
           'invisible' => array(
             'input[name="enable_secondary_footer"]' => array('checked' => FALSE)
