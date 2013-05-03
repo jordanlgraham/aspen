@@ -4,6 +4,8 @@
   $slide_number = theme_get_setting('slides_number');
 ?>
 
+<meta name="description" content="Aspen Health Care Specializes in Home Care, ACHC and CHAP Accreditation, Compliance Training, Deemed Status, Mock Surveys and Plan of Correction. Recovery Audit Specialists " />
+
   <?php //if (theme_get_setting('enable_slider') == '1') : ?>
 		<div class="slider_wrap"> 
 	    <div class="row">
@@ -20,7 +22,7 @@
 		    	    <?php endif;?>
 	    	    <?php $i++; } ?>
           -->
-          <img src="<?php echo $root;?>/images/single_slider_image.png">
+          <img src="<?php echo $root;?>/images/aspen-health-care-consulting.png">
 	    	  </div>
 	    	</div>
 			</div>  
