@@ -6,7 +6,7 @@
     
     $('.menu_2 a').append("<p class='menu_tagline'>how we're involved</p>");
     
-    $('.menu_3 a').append('<p class="menu_tagline">resources</p>');
+    $('.menu_3 a').append('<p class="menu_tagline">making life easier</p>');
     
     $('.menu_4 a').append('<p class="menu_tagline">learn more</p>');
      
