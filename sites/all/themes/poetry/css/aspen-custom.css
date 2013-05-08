@@ -143,3 +143,14 @@ input[type="text"] {
   padding-right: 27.75px;
 }
 
+.nine, .row .nine { 
+  width: 60% !important;
+}
+
+.three, .row .three {
+  width: 40% !important;
+}
+
+#main_title_text {
+  font-size: 45px !important;
+}
