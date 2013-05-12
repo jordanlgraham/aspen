@@ -22,7 +22,7 @@
 		    	    <?php endif;?>
 	    	    <?php $i++; } ?>
           -->
-          <img src="<?php echo $root;?>/images/aspen-health-care-consulting.png">
+          <img src="<?php echo $root;?>/images/aspen-health-care-consulting.jpg">
 	    	  </div>
 	    	</div>
 			</div>  
