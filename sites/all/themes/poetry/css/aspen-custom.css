@@ -154,3 +154,8 @@ input[type="text"] {
 #main_title_text {
   font-size: 45px !important;
 }
+
+.node-type-feed-item br {
+  display: block;
+  line-height:40px;
+}
