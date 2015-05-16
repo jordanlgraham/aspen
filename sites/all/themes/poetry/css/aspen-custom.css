@@ -159,3 +159,7 @@ input[type="text"] {
   display: block;
   line-height:40px;
 }
+
+.slider_wrap {
+  margin-top: 0px;
+}
